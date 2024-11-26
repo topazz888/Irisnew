@@ -10,37 +10,8 @@
     />
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-  <div class="header">
-        <img src="https://i.ibb.co/cFZY7c9/luck2.png" alt="Header Image" class="header-image">
-    </div>
-   <!-- Chart JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
-    <!-- Chart JS Plugin for displaying text over chart -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
-    <!-- Script -->
-    <script src="https://github.com/topazz888/Irisnew/blob/main/script.js"></script>
-	<button id="spin">Spin</button>
-	<span class="arrow"></span>
-<div class="container">
-	<div class="one"><span>Classic & Signature Cocktail</span></div>
-  <div class="two"><span>OnlyFun</span></div>
-  <div class="three"><span>You did great this year,but Santa still not chose you</span></div>
-  <div class="four"><span>Good Girls Swallow</span></div>
-  <div class="five"><span>Whiskey 1 shot</span></div>
-  <div class="six"><span>Money Shot</span></div>
-  <div class="seven"><span>No Luck, Sad :((</span></div>
-  <div class="eight"><span>Tequila 1 shot</span></div>
-  <div class="nine"><span>Take It All In</span></div>
-  <div class="ten"><span>Fastwork Voucher</span></div>
-      </div>
-  <div id="result">Result: <span id="finalValue">...</span></div>
-</body>
-</html>
-
-*{
+	<style>
+	*{
 	box-sizing:border-box;
 }
 
@@ -73,7 +44,6 @@ body{
 	position: fixed;
 	overflow: hidden;
 	transition: 5s;
-  top:25%;
 }
 
 .container div{
@@ -190,3 +160,34 @@ body{
   font-family: sans-serif;
   text-align: center;
 }
+	</style>
+</head>
+<body>
+  
+  <div class="header">
+        <img src="https://i.ibb.co/cFZY7c9/luck2.png" alt="Header Image" class="header-image">
+    </div>
+   <!-- Chart JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <!-- Chart JS Plugin for displaying text over chart -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+    <!-- Script -->
+    <script src="https://github.com/topazz888/Irisnew/blob/main/script.js"></script>
+	<button id="spin">Spin</button>
+	<span class="arrow"></span>
+<div class="container">
+	<div class="one"><span>Classic & Signature Cocktail</span></div>
+  <div class="two"><span>OnlyFun</span></div>
+  <div class="three"><span>You did great this year,but Santa still not chose you</span></div>
+  <div class="four"><span>Good Girls Swallow</span></div>
+  <div class="five"><span>Whiskey 1 shot</span></div>
+  <div class="six"><span>Money Shot</span></div>
+  <div class="seven"><span>No Luck, Sad :((</span></div>
+  <div class="eight"><span>Tequila 1 shot</span></div>
+  <div class="nine"><span>Take It All In</span></div>
+  <div class="ten"><span>Fastwork Voucher</span></div>
+      </div>
+  <div id="result">Result: <span id="finalValue">...</span></div>
+</body>
+</html>
+
